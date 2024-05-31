@@ -1,0 +1,336 @@
+* {
+   
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    /*top: 0px;*/
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.nav-brand-img {
+    height: 57px;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+.stageimg {
+    max-width: 100%;
+}
+
+.item-img {
+    order: 0px solid;
+    height: 79%;
+    border-radius: 0%;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.container span {
+    display: block;
+}
+
+.text1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+.shows {
+    display: grid;
+    padding: 25%;
+    margin-top: -6.5%;
+    padding-top: 10%;
+    margin-bottom: -25%;
+}
+
+.flexbox-container {
+    display: flex;  
+}
+
+.flexbox-item {
+    width: 250px;
+    height: 260px;
+    background-color: #ffffff;
+    
+    
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 100px;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;
+}
+
+.flexbox-item-4 {
+    min-height: 100px;
+}
+
+.flexbox-item-5 {
+    min-height: 100px;
+}
+
+.flexbox-item-6 {
+    min-height: 100px;
+}
+
+.flexbox-item-7 {
+    min-height: 100px;
+}
+
+.flexbox-item-8 {
+    min-height: 100px;
+}
+
+.flexbox-item-9 {
+    min-height: 100px;
+}
+
+.flexbox-item-10 {
+    min-height: 100px;
+}
+
+.flexbox-item-11 {
+    min-height: 100px;
+}
+
+.flexbox-item-12 {
+    min-height: 100px;
+}
+
+p {
+    line-height: 43px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.tiny {
+    color: white;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+input[type=submit] {
+    background: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    height: 12%;
+    width: 44%;
+    margin-top: 70%;
+}
+
+input[type=submit]:hover {
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
+
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+    height: 250px;
+
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.fontshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    
+}
+
+.local-concerts {
+    color: white;
+    margin-top: 5%;
+}
+
+.concert-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td , th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.fa-map-marker-alt {
+    font-size: 15px;color:#faac11! Important;
+}
+
+.fa-envelope {
+    font-size: 15px;color:#faac11! Important;
+}
+
+.fa-mobile-alt {
+    font-size: 15px;color:#faac11! Important;
+}
+
+.fa-facebook {
+    font-size: 15px;color:#faac11! Important;
+}
+
+.fa-twitter-square {
+    font-size: 15px;color:#faac11! Important;
+}
+
+.fa-youtube {
+    font-size: 15px;color:#faac11! Important;
+}
+
+.fa-instagram {
+    font-size: 15px;color:#faac11! Important;
+}
